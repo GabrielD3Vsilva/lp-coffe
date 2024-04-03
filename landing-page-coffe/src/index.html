@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page coffe</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class=" bg-[url('./img/home-img.jpeg')] bg-cover h-screen w-screen bg-zinc-950 overflow-x-hidden bg-center bg-no-repeat">
+    <header class="bg-zinc-950 fixed top-0 left-0 right-0 z-50 p-1">
+        <div class="flex justify-evenly items-center p-3">
+            <img src="img/logo.png" alt="imagem da logo">     
+            <ul class="hidden gap-5 md:flex">
+                <li><a href="#home" class="text-gray-300 hover:bg-red-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 font-bold">Home</a></li>
+                <li><a href="#about" class="text-gray-300 hover:bg-red-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 font-bold">About</a></li>
+                <li><a href="#menu" class="text-gray-300 hover:bg-red-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 font-bold">Menu</a></li>
+                <li><a href="#products" class="text-gray-300 hover:bg-red-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 font-bold">Products</a></li>
+                <li><a href="#blogs" class="text-gray-300 hover:bg-red-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 font-bold">Blogs</a></li>
+            </ul>
+
+            <ion-icon name="menu-outline" class="md:hidden btnOpenMenu text-white text-4xl py-2 px-4"></ion-icon>
+
+        </div>
+
+        <div class="hidden md:hidden py-10 menu">
+            <ul class="text-center">
+                <li><a href="#home" class="text-gray-300 hover:bg-red-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 font-bold block">Home</a></li>
+                <li><a href="#about" class="text-gray-300 hover:bg-red-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 font-bold block">About</a></li>
+                <li><a href="#menu" class="text-gray-300 hover:bg-red-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 font-bold block">Menu</a></li>
+                <li><a href="#products" class="text-gray-300 hover:bg-red-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 font-bold block">Products</a></li>
+                <li><a href="#blogs" class="text-gray-300 hover:bg-red-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 font-bold block">Blogs</a></li>
+             </ul>
+        </div>
+    </header>
+
+
+    <main id="home" class="flex justify-center pt-52 px-10 w-screen">
+        <div>
+            <h1 class="text-white text-3xl md:text-5xl font-black">FRESH <span class="text-red-600">COFFEE</span> IN <br> THE <span class="text-red-600">MORNING</span></h1>
+            <p class="text-white text-base md:text-xl mt-2 font-semibold">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Placeat <br> Labore, Sint Cupiditate Distinctio Tempora Reiciendis.</p>
+
+            <div class="flex mt-5">
+                <button class="bg-red-600 px-4 py-2 text-gray-300 font-black hover:bg-red-400 transition-all ease-in-out text-lg">Get yours now</button>
+            </div>
+        </div>
+
+    </main>
+    <span id="about" class="mb-20"></span>
+    <section class="bg-zinc-950 mt-20 md:mt-72 w-screen">
+        
+       <div class="py-10 flex flex-col gap-8 ">
+        <h2 class="text-gray-300 text-4xl md:text-5xl font-bold text-center"><span class="text-red-600">About</span> us</h2>
+
+        
+        <div class="flex mx-auto justify-center md:w-9/12 lg:w-10/12 gap-14 flex-wrap items-center">
+            <div>
+                <img src="img/about-img.jpeg" alt="about-img" class="w-80 md:w-96">
+            </div>
+
+            <div class="w-11/12  md:w-9/12 lg:w-1/2">
+                <h3 class="text-gray-300 text-2xl md:text-4xl font-bold">What <span class="text-red-600">Makes</span> Our Coffee <span class="text-red-600">Special?</span></h3>
+
+                <p class="text-gray-200 mt-2 md:text-lg">
+                    Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Voluptatibus Qui Ea Ullam, Enim Tempora Ipsum Fuga Alias Quae Ratione A Officiis Id Temporibus Autem? Quod Nemo Facilis Cupiditate. Ex, Vel?
+                </p>
+
+                <p class="mt-1 text-gray-200 md:text-lg">
+                    Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Odit Amet Enim Quod Veritatis, Nihil Voluptas Culpa! Neque Consectetur Obcaecati Sapiente?
+                </p>
+
+                <div class=" mt-4">
+                    <button class="bg-red-600 px-4 py-2 text-gray-300 font-black hover:bg-red-400 transition-all ease-in-out text-lg">Lean more</button>
+                </div>
+                
+            </div>
+        </div>
+       </div>
+    </section>
+
+    <span id="menu" class="mb-20"></span>
+    <hr>
+    
+
+    <section class="bg-neutral-950 ">
+        <div class="py-10 flex flex-col gap-14">
+            <h2 class="text-gray-300 text-4xl md:text-5xl font-bold text-center">Our <span class="text-red-600">Menu</span></h2>
+            
+
+            <div class="mx-auto">
+                <div class="flex gap-10 flex-wrap justify-center ">
+                    <div class="border-2 border-white py-5 px-10 flex flex-col  text-center gap-7 hover:bg-gray-200 text-white hover:text-black transition-all ease-in-out rounded-md">
+                        <img src="img/menu-1.png" alt="" class="w-24 mx-auto">
+                        <h3 class="text-2xl md:text-3xl font-black">Tasty And Healty</h3>
+
+                        <h4 class="text-2xl md:text-3xl font-black">
+                            $15.99
+                        </h4>
+
+                        <button class="bg-red-600 px-3 py-2 text-gray-300 font-black hover:bg-red-400 transition-all ease-in-out text-lg">Lean more</button>
+
+
+                    </div>
+
+                    <div class="border-2 rounded-md border-white py-5 px-10 flex flex-col justify-center text-center gap-7 hover:bg-gray-200 text-white hover:text-black transition-all ease-in-out">
+                        <img src="img/menu-2.png" alt="" class="w-24 mx-auto">
+                        <h3 class="text-2xl md:text-3xl font-black">Tasty And Healty</h3>
+
+                        <h4 class="text-2xl md:text-3xl font-black">
+                            $15.99
+                        </h4>
+
+                        <button class="bg-red-600 px-3 py-2 text-gray-300 font-black hover:bg-red-400 transition-all ease-in-out text-lg">Lean more</button>
+                    </div>
+
+                    <div class="border-2 border-white py-5 px-10 flex flex-col justify-center text-center gap-7 hover:bg-gray-200 text-white hover:text-black transition-all ease-in-out rounded-md ">
+                        <img src="img/menu-3.png" alt="" class="w-24 mx-auto">
+                        <h3 class="text-2xl md:text-3xl font-black">Tasty And Healty</h3>
+
+                        <h4 class="text-2xl md:text-3xl font-black">
+                            $15.99
+                        </h4>
+
+                        <button class="bg-red-600 px-3 py-2 text-gray-300 font-black hover:bg-red-400 transition-all ease-in-out text-lg">Lean more</button>
+                    </div>
+                </div>
+
+                <div class="flex gap-10 mt-10 flex-wrap justify-center">
+                    <div class="border-2 border-white py-5 px-10 flex flex-col justify-center text-center gap-7 hover:bg-gray-200 text-white hover:text-black transition-all ease-in-out rounded-md">
+                        <img src="img/menu-4.png" alt="" class="w-24 mx-auto">
+                        <h3 class="text-2xl md:text-3xl font-black">Tasty And Healty</h3>
+
+                        <h4 class="text-2xl md:text-3xl font-black">
+                            $15.99
+                        </h4>
+
+                        <button class="bg-red-600 px-3 py-2 text-gray-300 font-black hover:bg-red-400 transition-all ease-in-out text-lg">Lean more</button>
+                    </div>
+                    
+                    <div class="border-2 rounded-md border-white py-5 px-10 flex flex-col justify-center text-center gap-7 hover:bg-gray-200 text-white hover:text-black transition-all ease-in-out">
+                        <img src="img/menu-5.png" alt="" class="w-24 mx-auto">
+                        <h3 class="text-2xl md:text-3xl font-black">Tasty And Healty</h3>
+
+                        <h4 class="text-2xl md:text-3xl font-black">
+                            $15.99
+                        </h4>
+
+                        <button class="bg-red-600 px-3 py-2 text-gray-300 font-black hover:bg-red-400 transition-all ease-in-out text-lg">Lean more</button>
+                    </div>
+
+                    <div class="border-2 rounded-md border-white py-5 px-10 flex flex-col justify-center text-center gap-7 hover:bg-gray-200 text-white hover:text-black transition-all ease-in-out">
+                        <img src="img/menu-6.png" alt="" class="w-24 mx-auto">
+                        <h3 class="text-2xl md:text-3xl font-black">Tasty And Healty</h3>
+
+                        <h4 class="text-2xl md:text-3xl font-black">
+                            $15.99
+                        </h4>
+
+                        <button class="bg-red-600 px-3 py-2 text-gray-300 font-black hover:bg-red-400 transition-all ease-in-out text-lg">Lean more</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <span id="products" class="mb-20"></span>
+    <hr>
+
+    <section class="bg-neutral-950">
+        <div class="py-10 flex flex-col gap-14">
+            <h2 class="text-gray-300 text-4xl md:text-5xl font-bold text-center">Our <span class="text-red-600">Products</span></h2>
+
+
+            <div class="flex mx-auto gap-10 flex-wrap justify-center">
+
+                <div class="text-center hover:text-black text-white border-2 border-white px-10 py-6 rounded-md hover:bg-gray-200 transition-all ease-in-out">
+                    <img src="img/product-1.png" alt="product-1" class="mx-auto mb-5">
+                    <h3 class="text-2xl md:text-3xl font-black">Fresh Coffee</h3>
+                    <h4 class="text-2xl md:text-3xl font-black">$15.99</h4>
+                </div>
+
+                <div class="text-center hover:text-black text-white border-2 border-white px-10 py-6 rounded-md hover:bg-gray-200 transition-all ease-in-out">
+                    <img src="img/product-1.png" alt="product-1" class="mx-auto mb-5">
+                    <h3 class="text-2xl md:text-3xl font-black">Fresh Coffee</h3>
+                    <h4 class="text-2xl md:text-3xl font-black">$15.99</h4>
+                </div>
+
+                <div class="text-center hover:text-black text-white border-2 border-white px-10 py-6 rounded-md hover:bg-gray-200 transition-all ease-in-out">
+                    <img src="img/product-1.png" alt="product-1" class="mx-auto mb-5">
+                    <h3 class="text-2xl md:text-3xl font-black">Fresh Coffee</h3>
+                    <h4 class="text-2xl md:text-3xl font-black">$15.99</h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <span id="blogs"></span>
+    <hr>
+
+
+    <section>
+        
+    </section>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <script src="openResponsiveMenu.js"></script>
+
+    
+</body>
+</html>
